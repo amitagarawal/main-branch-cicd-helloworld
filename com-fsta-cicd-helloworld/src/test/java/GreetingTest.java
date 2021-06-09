@@ -1,7 +1,4 @@
-import static org.junit.Assert.*;
-
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.*;
 
 public class GreetingTest {
 
@@ -10,7 +7,7 @@ public class GreetingTest {
 		Greeting obj = new Greeting();
 		
 		String greetingString = obj.giveGreeting();
-		Assert.assertEquals("Hello", greetingString);
+		Assertions.assertEquals("Hello", greetingString);
 	}
 
 }
