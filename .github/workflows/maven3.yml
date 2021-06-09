@@ -31,7 +31,7 @@ jobs:
       with:
         files: com-fsta-cicd-helloworld/target/surefire-reports/**/*.xml
     - name: Send email
-      uses: dawidd6/action-send-mail@v3
+      uses: ./ #dawidd6/action-send-mail@v3
       with:
         # Required mail server address:
         server_address: smtp.gmail.com
