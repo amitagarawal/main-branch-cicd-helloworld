@@ -36,7 +36,7 @@ jobs:
           args: >
             -Dsonar.organization=org-hello-world
             -Dsonar.projectKey=hello-world3
-            -Dsonar.sources=src
+            #-Dsonar.sources=src
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_HELLO_WORLD }}
