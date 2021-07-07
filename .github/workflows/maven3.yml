@@ -39,7 +39,7 @@ jobs:
             -Dsonar.sources=src
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_HELLO_WORLD }}
         #run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar --file SimpleInterestCalc2/pom.xml
 
 
