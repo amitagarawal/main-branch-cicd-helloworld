@@ -7,9 +7,10 @@
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
     
-    <sonar.projectKey>hello-world3</sonar.projectKey>
-    <sonar.organization>org-hello-world</sonar.organization>
+
+    <sonar.organization>amitagarawal</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
   </properties>
   
 <dependencies>
